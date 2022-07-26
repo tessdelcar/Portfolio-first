@@ -1,0 +1,8 @@
+body{
+  /* background-color: magenta; */
+  background-image: url('Assets/Sunset1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
