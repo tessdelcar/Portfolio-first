@@ -1,0 +1,9 @@
+body{
+  /* background-color: magenta; */
+  background-image: url('Balloons_In_Sky.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: fantasy;
+  color: #fff;
+}
