@@ -8,3 +8,13 @@ body{
   width: 100%;
   height: 100vh;
 }
+
+h1{
+  text-align: center; color: #FF6F50;
+}
+p{
+  text-align: center; color: #E63552;
+}
+li{
+  text-align: ceter; color: #FBCC0A;
+}
