@@ -14,7 +14,7 @@ h1{
 h2{
     /* font-family: Herculanum; */
     text-align: center;
-    /* color: #FF6F50; */
+    color: #561B8B;
 }
 p{
     /* font-family: Hubballi; */
@@ -32,6 +32,10 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#firstname{
+    color: black;
 }
 
 #nav-list{
