@@ -44,10 +44,10 @@ li{
 }
 
 .box{
-  /* background-color: #FFE373; */
-  background-image: linear-gradient(45deg, #F47B89, #FFFFA6);
-  /* opacity: 0.5; */
-  box-shadow: 10px 10px 12px 2px pink;
+    /* background-color: #FFE373; */
+    background-image: linear-gradient(45deg, #F47B89, #FFFFA6);
+    /* opacity: 0.5; */
+    box-shadow: 10px 10px 12px 2px pink;
 }
 
 .box p a:hover{

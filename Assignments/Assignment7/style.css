@@ -1,0 +1,44 @@
+h1{
+    color: #049993;
+}
+
+#firstheader{
+    color: black;
+    background-color: #049993;
+}
+
+.box h1{
+  /* box-shadow: 10px 10px 12px 2px pink; */
+  background: #000000
+}
+
+.box{
+  /* box-shadow: 10px 10px 12px 2px pink; */
+  background: #049993
+}
+
+h2{
+  background: #049993;
+}
+#one{
+  padding-top: 8px;
+  background-color: gray;
+}
+
+#two{
+  color: 000000;
+  padding-bottom: 8px;
+  background-color: gray;
+}
+
+.footer {
+  color: #049993;
+  padding: 5px;
+  padding-bottom: 5px;
+  background: #000000;
+}
+
+#nav-list li{
+  display: inline;
+  color: #000000;
+}
