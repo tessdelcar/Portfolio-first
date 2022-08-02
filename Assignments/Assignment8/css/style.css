@@ -12,13 +12,18 @@ header, footer{
   width: 100%;
 }
 
+nav{
+  float: left;
+  width: 100%;
+}
+
 nav ul li{
   display: inline;
   list-style-type: none;
 }
 
 ul{
-  padding-left: 2px;
+  padding-left: 12px;
 }
 
 a{
