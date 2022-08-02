@@ -2,6 +2,10 @@ h1, h2, h3, body{
   font-family: sans-serif;
 }
 
+a{
+  color: #000000;
+}
+
 #box1 {
     width: 800px;
     font-family: sans-serif;
