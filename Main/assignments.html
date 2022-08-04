@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Recap</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/modal-timer.css">
+    <style media="screen">
+    </style>
+  </head>
+  <body>
+    <div class="intro-wrapper">
+      <p id="intro" class="drop-through-text pos-absolute">
+        Welcome!
+      </p>
+    </div>
+    <main>
+      <div class="header-wrapper" id="slidey">
+        <h1>My School Assignments:</h1>
+        <h4 style="margin:0;">
+        <ul>
+        <li><a href="../Home/index.html">Home</a></li>
+        <li><a href="../Assignments/CodeSkeleton/index.html">Code Skeleton</a></li>
+        <li><a href="../Assignments/Assignment6/index.html">Assignment 6</a></li>
+        <li><a href="../Assignments/Assignment7/index.html">Assignment 7</a></li>
+        <li><a href="../Assignments/Assignment8/index.html">Assignment 8</a></li>
+        <li><a href="../Assignments/Assignment9/index.html">Assignment 9</a></li>
+        <hr />
+        <li><a href="../Assignments/HBD_Jeremy/HBD_Jeremy.html"> ✰ Open on 7/27/22 ✰ </a></li>
+        </ul>
+        </h4>
+
+      </div>
+      <div class="closing-container">
+        <p class="drop-through-text">Thanks for stopping by!</p>
+      </div>
+      <div class="spacer"></div>
+
+
+
+
+
+
+    <script type="text/javascript">
+
+        // SLIDE EFFECT:
+        const slide = document.getElementById('slidey');
+        let sectionHeaders = document.getElementsByClassName('list-header');
+
+        function slideBkgrnd() {
+          slide.classList.add("restore_slide");
+        }
+        function blackTxt() {
+          slide.classList.add("black-txt");
+        }
+        function listHeaderTransition() {
+          l = sectionHeaders.length;
+          for (i=0;i<sectionHeaders.length;i++) {
+            sectionHeaders[i].classList.add("black-txt");
+          }
+        }
+
+        setTimeout(slideBkgrnd, 2000);
+        setTimeout(blackTxt, 6000);
+        setTimeout(listHeaderTransition, 8000);
+
+        // --------------------------------------------------------- |
+
+
+        // Break Modal Popup
+        const breakModal = document.getElementById("break-modal");
+
+        function revealModal(){
+          breakModal.classList.add("reveal");
+        }
+        function closeModal(){
+          breakModal.classList.remove("reveal");
+        }
+
+          // BREAK MODAL TIMER:
+        function displayTime(){
+          let hourIn = document.getElementById("hr-in").value;
+          let minuteIn = document.getElementById("mn-in").value;
+          console.log(hourIn + " " + minuteIn);
+          let hourOut = document.getElementById("hr");
+          let minuteOut = document.getElementById("mn");
+
+          hourOut.innerHTML = hourIn;
+          minuteOut.innerHTML = minuteIn;
+        }
+
+
+        // DATE GRABBA:
+
+          let dateEl = document.getElementById("date");
+
+          var path = window. location. pathname;
+          var page = path. split("/"). pop();
+          var fullDate = page.substring(0,8);
+          const d = new Date(fullDate);
+
+          var pgMo =  page.substring(0, 2);
+          var pgDy =  page.substring(3, 5);
+          var pgYr =  page.substring(6, 8);
+          var weekday = d.getDay();
+
+          console. log( fullDate);
+
+            if (weekday != 0) {
+              if(weekday == 1) {
+                weekday = "Monday";
+              }
+              if(weekday == 2) {
+                weekday = "Tuesday";
+              }
+              if(weekday == 3) {
+                weekday = "Wednesday";
+              }
+              if(weekday == 4) {
+                weekday = "Thursday";
+              }
+              if(weekday == 5) {
+                weekday = "Friday";
+              }
+              if(weekday == 6) {
+                weekday = "Saturday";
+              }
+              if(weekday == 7) {
+                weekday = "Sunday";
+              }
+            }
+
+          dateEl.innerHTML = weekday + " - " + pgMo + "/" + pgDy + "/" + pgYr;
+
+    </script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+  </body>
+</html>
