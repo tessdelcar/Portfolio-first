@@ -1,55 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
-body{
-  margin: 0;
-  font-family: 'Bebas Neue', sans-serif;
+h1{
+  font-family: inherit;
 }
 
-header{
-  background-color: #88146B;
-  padding: 30px;
-  font-family: "Bebas Neue";
+body{
+  /* background-color: lavender; */
+}
 
+/* table{
+  border-collapse: collapse;
+  border-spacing: 15px;
+  background-color: red;
+} */
 
+th, td{
+  /* background-color: #9BD5E3; */
+  /* background-color: #89CFF0; */
+  padding: 15px;
+  text-align: center;
+  /* border: 5px solid lime; */
+}
+
+caption{
+  text-align: left;
+  font-weight: bold;
+  font-size: xx-large;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.header-col{
+  background-color: #D3D3D3;
+}
+
+.table-col{
+  background-color: #9BD5E3;
+}
+
+ul{
+  padding-left: 12px;
 }
 
 
 #nav-list li{
   display: inline;
-  font-family: 'Bebas Neue', sans-serif;
 }
 
-#nav-list2{
+#nav-list{
   display: inline;
   color: #000;
-}
-
-#nav-list2:hover{
-  color: #fff;
-  background-color: #88146B;
-}
-
-}
-table{
-  font-family: "Bebas Neue", sans-serif;
-}
-
-td{
-
-}
-
-th{
-  padding: 5px 10px;
-  background-color: #88146B;
-  font-size: 18pt;
-  color: #fff;
-}
-
-tr{
-  border-bottom: salmon;
-}
-
-tr:hover{
-  color: #fff;
-  background-color: #88146B;
+  padding: 3px;
 }
