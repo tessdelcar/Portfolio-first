@@ -1,4 +1,5 @@
 body{
+  /* font-family: sans-serif; */
   /* background-color: #66FFDD; */
   /* color: #66FFDD; */
 }
@@ -34,6 +35,15 @@ img{
     margin-right: auto;
 }
 
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color: #fff;
+  background-color: #F17CB5;
+}
+
 #firstname{
     color: black;
 }
@@ -50,10 +60,10 @@ img{
   display: inline;
 }
 
-#nav-list li a:hover{
+/* #nav-list li a:hover{
   color: #fff;
   background-color: #F17CB5;
-}
+} */
 
 #nav-list ol a:hover{
   color: #fff;

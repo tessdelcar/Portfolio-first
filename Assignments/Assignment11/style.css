@@ -1,0 +1,123 @@
+/* JUSTIFY-CONTENT: HORIZONTAL SPACING */
+/* ALIGN ITEMS: VERTICAL SPACING */
+
+*{
+  font-family: sans-serif;
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+/* Jeremy's Code */
+
+/*
+
+.flex-left{
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 15px;
+}
+
+.flex-right{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+
+ */
+
+/* Jeremy's Code */
+
+.step-2{
+  display: wrap;
+  justify-content: flex-start;
+}
+
+.step-3{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.step-4{
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.container-1{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+}
+
+.container-2{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  width: 600px;
+  /* justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  align-items: center; */
+  /* width: 300px; */
+}
+
+.container-3{
+  width: 300px;
+  display: contents;
+  justify-content: space-around;
+}
+
+.container-4{
+  width: 300px;
+  flex-wrap: wrap;
+}
+
+.item{
+  height: 50px;
+  /* width: 20%; */
+  /* background-color: orange; */
+  flex: 1;
+  text-align: center;
+}
+
+.item-2{
+  height: 50px;
+  width: 300px;
+}
+
+.break{
+  background-color: #fff;
+  padding: 40px;
+}
+
+/* .break-2{
+  background-color: #fff;
+  padding: 50px;
+} */
+
+/* Utility Classes */
+.blue-bg{
+  background-color: turquoise;
+}
+
+.green-bg{
+  background-color: limegreen;
+}
+
+.yellow-bg{
+  background-color: yellow;
+}
+
+.orange-bg{
+  background-color: orange;
+}
+
+.pink-bg{
+  background-color: pink;
+}
