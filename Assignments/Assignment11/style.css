@@ -5,6 +5,23 @@
   font-family: sans-serif;
 }
 
+a{
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #fff;
+  background-color: #87CEEA;
+}
+
+nav, ul, li{
+  display: inline;
+  list-style-type: none;
+  text-align: center;
+  padding: 24px;
+}
+
 .flex-center{
   display: flex;
   justify-content: center;
@@ -93,13 +110,13 @@
 
 .break{
   background-color: #fff;
-  padding: 40px;
+  padding: 10px;
 }
 
-/* .break-2{
+.break-2{
   background-color: #fff;
-  padding: 50px;
-} */
+  padding: 40px;
+}
 
 /* Utility Classes */
 .blue-bg{
