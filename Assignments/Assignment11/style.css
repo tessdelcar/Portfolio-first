@@ -5,9 +5,16 @@
   font-family: sans-serif;
 }
 
+h1{
+  text-align: center;
+}
+
 a{
   color: #000;
   text-decoration: none;
+  text-align: center;
+  display: inline;
+  justify-content: space-between;
 }
 
 a:hover{
@@ -15,11 +22,19 @@ a:hover{
   background-color: #87CEEA;
 }
 
-nav, ul, li{
+/* nav, ul, li{
   display: inline;
+  background-position: center; fixed;
   list-style-type: none;
   text-align: center;
   padding: 24px;
+}*/
+
+#nav-list{
+  list-style: none;
+  display: inline;
+  text-align: center;
+  justify-content: space-around;
 }
 
 .flex-center{
@@ -60,7 +75,7 @@ nav, ul, li{
 .step-4{
   display: flex;
   justify-content: center;
-  align-items: stretch;
+  align-items: center;
 }
 
 .container-1{
@@ -93,6 +108,7 @@ nav, ul, li{
 .container-4{
   width: 300px;
   flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .item{
