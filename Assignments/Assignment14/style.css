@@ -1,9 +1,40 @@
+Body{
+  font-family: sans-serif;
+}
+
+a:hover{
+  color: #fff;
+  background-color: #88146B;
+}
+
 #nav-list li{
   display: inline;
 }
 
 #nav-list{
   display: inline;
-  color: #000;
+  /* color: #000; */
   padding: 3px;
+}
+
+/* #firstname:focus{
+  outline-style: none;
+  box-shadow: none;
+  border-color: transparent;
+  background-color: yellow;
+  color: orange;
+} */
+
+button {
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.no-focusborder:focus {
+  outline-style: none;
+  box-shadow: none;
+  border-color: transparent;
+  /* background-color: black; */
+  background-color: #88146B;
+  color: white;
 }
