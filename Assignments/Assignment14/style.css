@@ -1,0 +1,9 @@
+#nav-list li{
+  display: inline;
+}
+
+#nav-list{
+  display: inline;
+  color: #000;
+  padding: 3px;
+}
