@@ -54,6 +54,9 @@
   src: url(https://fonts.gstatic.com/s/montaga/v13/H4cnBX2Ml8rCkEO_4gEa7ZG6iqY.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+
+
+
 body{
   /* background-color: purple; */
   /* background-image: url('Assets/sunset1.jpg'); */
@@ -98,8 +101,8 @@ nav li a {
 nav li a:hover{
   /* color: #fff; */
   background-color: #fff;
-  padding-left: 20px;
-  padding-right: 20px;
+  /* padding-left: 20px;
+  padding-right: 20px; */
 }
 
 p{
@@ -146,9 +149,9 @@ a{
 }
 form{
   display: flex;
-  align-self: flex-end;
+  /* align-self: flex-end; */
   justify-content: center;
-  margin-top: 26px;
+  /* margin-top: 26px; */
 }
 nav li{
   justify-content: center;
@@ -171,6 +174,10 @@ h3{
 
 p{
   color: #000;
+}
+
+#Grrm-Banner{
+
 }
 
 #Current-Blogs{
@@ -249,4 +256,50 @@ p{
   @media (max-width: 1024px)
   font-size: 20px;
   padding: 2px 0 120px 0;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 480px){
+  body {
+
+  }
+
+  .header{
+    flex-wrap: wrap;
+  }
+  #Grrm-Banner{
+    max-width: 75%;
+    width: 75%;
+    height: auto;
+    object-fit: contain;
+  }
+  #Shield-Logo{
+    max-width: 10%;
+    width: 10%;
+    height: auto;
+    object-fit: contain;
+
+  }
+  .Banner-Images{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+.social{
+  max-width: 10%;
+  width: 10%;
+  height: auto;
+  object-fit: contain;
+  align-items: center;
+  }
+  form{
+    margin-top: 0;
+  }
+  .nav-list nav{
+    justify-content: flex-start;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }

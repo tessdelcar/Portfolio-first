@@ -7,6 +7,12 @@ a:hover{
   background-color: #88146B;
 }
 
+#firstname:focus{
+  outline: medium solid #88146B;
+  border-radius: 4px;
+  outline-offset: -2px;
+}
+
 #nav-list li{
   display: inline;
 }
