@@ -233,7 +233,7 @@ width: 66%:
 .footer-content{
   display: flex;
   justify-content: center;
-  margin-top: 3px;
+  margin-top: 30px;
   width: 960px;
 }
 
@@ -257,10 +257,16 @@ width: 66%:
   }
 
   .header{
-    display: flex;
+
+  }
+  .cards{
+    flex-direction: column;
+  }
+  .grid-wrapper{
+    flex-direction: column;
   }
   .grrm{
-  display: flex;
+    display: flex;
     max-width: 75%;
     width: 75%;
     height: auto;
@@ -291,8 +297,14 @@ width: 66%:
     margin-top: 0;
   } */
   .hdr-menu{
+    flex-direction: column;
     justify-content: flex-start;
     padding-left: 5%;
     padding-right: 5%;
+  }
+  .header-content{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
   }
 }
