@@ -17,7 +17,7 @@ p{
 
 a{
   text-align: center;
-  list-style-type: none;
+  text-decoration: none;
   color: #7EF286;
   /* color: #80A685; */
   font-family: Noto;
@@ -26,6 +26,7 @@ a{
 ul li{
     font-family: Noto;
     display: inline;
+    list-style-type: none;
     /* list-style-type: none; */
     text-align: center;
     color: #83FF8D;
@@ -74,10 +75,11 @@ p{
   color: #80A685;
 }
 
-a:hover{
+a.links:hover{
   /* color: #fff; */
   background-color: #F9849F;
   color: #fff;
+  text-decoration: none;
 }
 
 .social{
@@ -85,6 +87,6 @@ justify-content: center;
 text-decoration: none;
 }
 
-.social a:hover{
-text-decoration: none;
+a.social:hover{
+/* background-color: #B5B5B5; */
 }
