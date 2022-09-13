@@ -2,44 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Sans&display=swap');
 
-h1{
-    font-family: Dancing Script;
-    text-align: center;
-    /* color: #F17CB5; */
-    color: #F9849F;
-    font-size: 48pt;
-}
-
-p{
-  color: #80A685;
-  font-family: Noto;
-}
-
-a{
-  text-align: center;
-  text-decoration: none;
-  color: #7EF286;
-  /* color: #80A685; */
-  font-family: Noto;
-  font-size: 22px;
-  font-weight: bold;
-}
-
-ul li{
-    font-family: Noto;
-    display: inline;
-    list-style-type: none;
-    /* list-style-type: none; */
-    text-align: center;
-    color: #83FF8D;
-    margin-top: 100px;
-    background-color: #fff;
-    /* color: #80A685; */
-}
-
-body{
-  /* background-color: purple; */
-  /* background-image: url('Assets/sunset1.jpg'); */
+body {
+  height: 1500px;
+  position: relative;
   background-image: url('../../../Assets/Background.jpg');
   background-position: center center fixed;
   background-size: cover;
@@ -48,56 +13,117 @@ body{
   color: #80A685;
   font-family: Noto;
   width: 100%;
-  height: 100vh;
-  /* padding: 30px; */
+  /* height: 100vh; */
 }
 
-p{
-  font-family: Noto;
-  text-align: center;
-  color: #fff;
+nav {
+  background-color: yellow;
 }
 
-#Desk{
-  background-position: center center fixed;
-  background-size: cover;
+#navbar1 {
+  background-color: lightgreen;
+  position: fixed;
   width: 100%;
 }
 
-#Links{
+#navbar2 {
+  background-color: #F2D852;
+  position: relative;
+  top: 150px;
+  width: 100%;
+}
+
+#navbar3 {
+  background-color: skyblue;
+  position: absolute;
+  bottom: 150px;
+  width: 100%;
+}
+
+ul {
+  /* background-color: lavender; */
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+}
+
+a{
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  /* color: #7EF286;
+  font-family: Noto;
+  font-size: 22px;
+  font-weight: bold; */
+}
+
+.fa-brands{
+  color: #fff;
+}
+
+a.links:hover{
+  background-color: #F9849F;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* h1{
+    font-family: Dancing Script;
+    text-align: center;
+    color: #F9849F;
+    font-size: 48pt;
+}
+
+p{
+  color: #80A685;
+  font-family: Noto;
+} */
+
+/* ul li{
+    font-family: Noto;
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+    color: #83FF8D;
+    margin-top: 100px;
+    background-color: #fff;
+} */
+
+/* .links{
+  text-align: center;
+}
+
+#links{
   text-align: center;
   font-family: Noto;
   font-size: 24pt;
   color: #B5B5B5;
-  /* color: #FFEC36; */
-}
+} */
 
-#nav-list{
+/* #nav-list{
   background-position: center;
   display: inline;
   text-align: center;
   font-family: Noto;
   color: #80A685;
-}
+} */
 
-.links{
-  text-align: center;
-}
-
-a.links:hover{
-  /* color: #fff; */
-  background-color: #F9849F;
-  color: #fff;
-  text-decoration: none;
-}
-
-.social{
+/* .social{
 justify-content: center;
 text-decoration: none;
 text-align: center;
-}
+} */
 
 a.social:hover{
-/* background-color: #B5B5B5; */
-background-color: #7EF286;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.fa-brands:hover{
+  background-color: #F9849F;
+  padding: 10px;
 }
