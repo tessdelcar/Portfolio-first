@@ -5,10 +5,12 @@
     <title>Assignments</title>
     <!-- Browser Tab Icon -->
     <link rel="icon" href="../Assets/MyIcon.JPG">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- User Generated StyleSheet -->
   <style>
 
   a{
+    display: inline-flex;
     color: #000000;
     font-family: futura;
     text-decoration: none;
@@ -23,8 +25,9 @@
 
 ul, li{
 
-  padding-bottom: 18px;
+  padding-bottom: 5px;
   list-style-type: none;
+  padding: 5px;
 }
 
   h1, h2, h3{
@@ -36,21 +39,65 @@ ul, li{
     color: #fff;
   } */
 
-  #Nav-List{}
 
   hr{
-    margin-bottom: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .directory-list #directory-list{
+    display: inline-flex;
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: space-between;
+  }
+
+  #directory-list{
+    padding: 10px;
+  }
+
+  .fa-solid{
+    margin-top: 3px;
+  }
+
+  .fa-solid:hover{
+    padding: 8px;
+  }
+
+  a.directory-list:hover{
+    padding: 8px;
   }
 
   </style>
 
   </head>
   <body>
-    <h1>My School Assignments</h1>
-    <!-- Here is a list of all my school Assignments -->
-    <!-- <div> -->
-      <ul id="Nav-List">
+    <nav class="directory-list">
+      <ul id="directory-list">
+        <li><a href="../108/Directory/index.html"><i class="fa-solid fa-bars"></i></a></li>
         <li><a href="../index.html">Home</a></li>
+        <li><a href="MyGrades/index.html">Grades</a></li>
+        <li> <a href="Contact/index.html">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Here is a list of all my school Assignments -->
+
+
+
+  <ul id="Nav-List">
+
+    <h1>108 Assignments</h1>
+
+        <li><a href="../108/Assignment1/index.html">(1) Nav Bar pt 1</a></li>
+        <li><a href="../108/NavBarLab/index.html">• Nav Bar Lab•</a></li>
+        <li><a href="../108/Assignment2/index.html">(2) Nav Bar pt 2</a></li>
+        <li><a href="../108/Assignment3/index.html">(3) Flexbox & Responsiveness</a></li>
+        <li><a href="../108/CustomNavBar/index.html">• Custom Nav Bar Lab •</a></li>
+
+        <hr/>
+
+    <h1>107 Assignments</h1>
+
         <li><a href="CodeSkeleton/index.html">• Code Skeleton •</a></li>
         <li><a href="Assignment6/index.html">(6) Linked Lists</a></li>
         <li><a href="Assignment7/index.html">(7) Div Only Layout</a></li>
@@ -67,14 +114,8 @@ ul, li{
         <li><a href="Assignment14/index.html">(14) Forms</a></li>
         <li><a href="Project1ResponsiveRedesign/index.html">Project 1: 1ST Draft</a></li>
         <li><a href="../Project1/index.html">Project 1: Final Draft</a></li>
-        <hr/>
-        <h1>108 Assignments</h1>
-        <li><a href="../108/Assignment1/index.html">(1) Nav Bar pt 1</a></li>
-        <li><a href="../108/NavBarLab/index.html">• Nav Bar Lab•</a></li>
-        <li><a href="../108/Assignment2/index.html">(2) Nav Bar pt 2</a></li>
-        <li><a href="../108/Assignment3/index.html">(3) Flexbox & Responsiveness</a></li>
-        <li><a href="../108/CustomNavBar/index.html">• Custom Nav Bar Lab •</a></li>
-      </ul>
+
+  </ul>
     <!--   <li><a href="HBD_Jeremy/HBD_Jeremy.html" id="HBD_Jeremy"> ✰ Open on 7/27/22 ✰ </a></li> -->
 
   </body>
