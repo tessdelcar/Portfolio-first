@@ -3,17 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Sans&display=swap');
 
 body {
-  height: 1500px;
   position: relative;
-  background-image: url('../../../Assets/Background.jpg');
+  background-image: url('../../../Assets/Background1.jpg');
   background-position: center center fixed;
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  color: #80A685;
-  font-family: Noto;
   width: 100%;
-  /* height: 100vh; */
+  height: 100vh;
 }
 
 nav {
@@ -27,7 +24,7 @@ nav {
 }
 
 #navbar2 {
-  background-color: #F2D852;
+  background-color: yellow;
   position: relative;
   top: 150px;
   width: 100%;
@@ -65,7 +62,7 @@ a{
 }
 
 a.links:hover{
-  background-color: #F9849F;
+  background-color: hotpink;
   color: #fff;
   text-decoration: none;
   padding: 10px;
@@ -124,6 +121,6 @@ a.social:hover{
 }
 
 .fa-brands:hover{
-  background-color: #F9849F;
+  background-color: hotpink;
   padding: 10px;
 }
