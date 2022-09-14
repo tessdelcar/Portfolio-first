@@ -1,0 +1,24 @@
+*{
+  color: #561B8B;
+}
+
+a{
+  text-decoration: none;
+  padding: 10px;
+}
+
+ul{
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+#home{
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  ul{
+    flex-direction: column;
+  }
+}
