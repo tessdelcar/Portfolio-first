@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 20px;
+}
+
+h1{
+  color: hotpink;
+  margin-left: 46px;
+  font-size: 35px;
+}
+
+ul li{
+  padding: 5px;
+}
+
+nav ul{
+  display: inline-flex;
+  list-style-type: none;
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+.nav-list{
+  display: inline-flex;
+  list-style-type: none;
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+a{
+  color: lightgreen;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #fff;
+  background-color: hotpink;
+}
+
+.resources{
+  color: hotpink;
+  list-style-type: none;
+}
+/* .nav-list{
+  display: inline;
+  text-decoration: none;
+} */
