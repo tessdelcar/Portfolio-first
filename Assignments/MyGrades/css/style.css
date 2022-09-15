@@ -6,7 +6,9 @@ body{
 }
 
 header{
-  background-color: #88146B;
+  /* background-color: #88146B; */
+  color: #fff;
+  background-color: #561B8B;
   padding: 30px;
   font-family: "Bebas Neue";
 
@@ -25,7 +27,8 @@ header{
 
 #nav-list2:hover{
   color: #fff;
-  background-color: #88146B;
+  /* background-color: #88146B; */
+  background-color: #561B8B;
 }
 
 }
@@ -39,7 +42,8 @@ td{
 
 th{
   padding: 5px 10px;
-  background-color: #88146B;
+  /* background-color: #88146B; */
+  background-color: #561B8B;
   font-size: 18pt;
   color: #fff;
 }
@@ -50,5 +54,6 @@ tr{
 
 tr:hover{
   color: #fff;
-  background-color: #88146B;
+  background-color: #561B8B;
+  /* background-color: #88146B; */
 }
