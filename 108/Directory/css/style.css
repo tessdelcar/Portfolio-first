@@ -5,6 +5,17 @@
   font-size: 20px;
 }
 
+body {
+  position: relative;
+  background-image: url('../../../Assets/Water_Reflection.jpg');
+  background-position: center center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+
 /* NavBar */
 
 .navbar {
@@ -50,7 +61,13 @@
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: lightgreen;
+  /* background-color: #D5F2F2; */
+  /* background-color: #ADD9D9; */
+  background-color: #fff;
+  color: #7EB3B9;
+  /* color: #70A6AE; */
+  /* color: #AAD5DB; */
+  /* color: #84BEC2; */
 }
 
 .dropdown-content {
@@ -78,4 +95,78 @@
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.break{
+  width: 400px;
+}
+
+/* contents: */
+
+.content {
+  background-color: #fff;
+  border: 2px solid hotpink;
+  /* border: 2px solid #D36B8F; */
+  padding:15px;
+  /* opacity: 80%; */
+  /* color: #D36B8F; */
+  /* color: #fff; */
+  box-shadow: 2px 3px 1px 1px rgba(0,0,0,0.3);
+  margin:50px 15%;
+}
+.content-header {
+  font-size: 38pt;
+  color: hotpink;
+  /* opacity: 80%; */
+  font-family: "Noto", sans-serif;
+  /* margin:0; */
+  text-align: center;
+  padding: 10px;
+  font-style: italic;
+  font-weight: bold;
+}
+.content-subhead {
+  border-bottom: 1px solid #2e4c83;
+  /* margin:0; */
+  text-align: center;
+  margin-bottom:25px;
+  padding-bottom:25px;
+  font-family: "Noto", sans-serif;
+  font-weight: normal;
+  font-style: italic;
+}
+.content-content {
+  padding:20px;
+}
+.content-fluid {
+ padding:15px 15%;
+ /* margin: 0px; */
+ background: white;
+ /* border-top:2px solid #2e4c83; */
+ /* border-bottom:2px solid #2e4c83; */
+ border-top: 2px solid hotpink;
+ border-bottom: 2px solid hotpink;
+}
+
+/* content parallax */
+.parallax-bg {
+  height:100px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.parallax-abstract {
+  background-image: url("../../../Assets/Ocean.GIF");
+}
+
+/* Special typography */
+
+.dropcap {
+  float:left;
+  font-size:42pt;
+  margin-top: -5px;
+  line-height: 0.65;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  font-family: "Noto", sans-serif;
+  font-weight: bold;
 }
