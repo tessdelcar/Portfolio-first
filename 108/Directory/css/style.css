@@ -16,6 +16,10 @@ body {
   height: 100vh;
 }
 
+p{
+  font-size: 22px;
+}
+
 /* NavBar */
 
 .navbar {
@@ -46,7 +50,7 @@ body {
   display: inline-flex
   overflow: hidden;
   justify-content: center;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .dropdown .dropbtn {
@@ -112,7 +116,7 @@ body {
   /* color: #D36B8F; */
   /* color: #fff; */
   box-shadow: 2px 3px 1px 1px rgba(0,0,0,0.3);
-  margin:50px 15%;
+  margin: 50px 15%;
 }
 .content-header {
   font-size: 38pt;
@@ -128,6 +132,7 @@ body {
 .content-subhead {
   border-bottom: 1px solid #2e4c83;
   /* margin:0; */
+  font-size: 18pt;
   text-align: center;
   margin-bottom:25px;
   padding-bottom:25px;
@@ -162,11 +167,11 @@ body {
 
 .dropcap {
   float:left;
-  font-size:42pt;
+  font-size: 40pt;
   margin-top: -5px;
   line-height: 0.65;
   padding-bottom: 0px;
   margin-bottom: 0px;
-  font-family: "Noto", sans-serif;
+  /* font-family: "Noto", sans-serif; */
   font-weight: bold;
 }
