@@ -7,20 +7,27 @@
     <!-- Browser Tab Icon -->
     <link rel="icon" href="../../Assets/MyIcon.JPG">
     <!-- File Title & Link -->
-    <title>Custom Nav Bar</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment 4</title>
   </head>
   <body>
-
-    <div class="dropdown">
-      <button class="dropbtn"><i class="fa-solid fa-bars"></i></button>
-      <div class="dropdown-content">
-        <a href="../../index.html">Home</a>
-        <a href="../../Assignments/assignments.html">Assignments</a>
-        <a href="../../Assignments/Contact/index.html">Contact</a>
-      </div>
-    </div>
-
+    <nav>
+      <ul>
+        <li id="home">
+          <a href="../Directory/index.html"><i class="fa-solid fa-house-chimney"></i></a>
+        </li>
+        <li><a href="https://beacons.ai/tessdelcardesigns">About</a></li>
+        <li><a href="../../Assignments/Contact/index.html">Contact</a></li>
+        <li class="dropdownContainer">
+          <a href="#">Good Reads</a>
+          <ul class="dropdownMenu">
+            <li><a href="https://www.td.org/insights/4-habits-to-help-you-cultivate-a-happy-mindset">4 Habits for a Happy Mindset</a></li>
+            <li><a href="https://www.sunyoungkim.org/class/old/hci_f18/pdf/The-Design-of-Everyday-Things-Revised-and-Expanded-Edition.pdf">The Design of Everyday Things</a></li>
+            <li><a href="https://wtf.tw/ref/robbins.pdf">Learning Web Design</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
   </body>
 </html>
