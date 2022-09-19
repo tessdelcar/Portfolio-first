@@ -54,13 +54,13 @@ footer a:hover {
 ****************************************************************************/
 #siteGrid {
 display: grid;
-grid-template-columns: 1fr 1000px 1fr;
+grid-template-columns: 1fr 800px 1fr;
 grid-auto-rows: minmax(100px, auto);
 grid-template-areas:
   "navArea navArea navArea"
   "heroArea heroArea heroArea"
   ". threeCardsArea ."
-  ". galleryArea ."
+  ". gallery1Area ."
   ". twoCardsArea ."
   "footerArea footerArea footerArea";
 }
@@ -77,8 +77,8 @@ nav{
 grid-area: threeCardsArea;
 }
 
-#galleryl {
-grid-area: gallerylArea;
+#gallery1 {
+grid-area: gallery1Area;
 }
 
 #twoCards {
@@ -160,14 +160,14 @@ nav h2 {
 /****************************************************************************
   Media Query - Mobile Breakpoint
 ****************************************************************************/
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
   #siteGrid{
     grid-template-columns: 1fr;
     grid-template-areas:
     "navArea"
     "heroArea"
     "threeCardsArea"
-    "gallerylArea"
+    "gallery1Area"
     "twoCardsArea"
     "footerArea";
   }
