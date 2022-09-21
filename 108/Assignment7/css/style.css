@@ -83,8 +83,8 @@ nav {
 #threeCards {
   grid-area: threeCardsArea;
 }
-#gallery1 {
-  grid-area: gallery1Area;
+#gallery {
+  grid-area: galleryArea;
 }
 #twoCards {
   grid-area: twoCardsArea;
