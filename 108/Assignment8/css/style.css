@@ -313,9 +313,6 @@ nav h2 {
 #carousel img{
   width: 300px;
   margin: 0 auto;
-  /* or we can center the carousel by:
-  margin-left: auto;
-  margin-right: auto; */
 }
 
 /****************************************************************************
