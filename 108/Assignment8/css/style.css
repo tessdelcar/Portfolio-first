@@ -20,6 +20,7 @@ h2,
 h3,
 a {
   font-family: 'Secular One', sans-serif;
+  color: hotpink;
 }
 
 
@@ -58,6 +59,9 @@ footer a:hover {
   text-decoration: underline;
 }
 
+.fa-brands{
+  color: #70E4EA;
+}
 
 /****************************************************************************
   Grid styles
