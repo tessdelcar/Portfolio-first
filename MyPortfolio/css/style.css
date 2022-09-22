@@ -5,6 +5,10 @@
   color: hotpink;
 }
 
+body {
+  margin: 0;
+}
+
 h1,
 h2,
 h3,
@@ -62,10 +66,6 @@ footer a:hover {
 #threeCards a:hover,
 #twoCards a:hover {
   transform: scale(1.1);
-}
-
-body {
-  margin: 0;
 }
 
 #siteGrid {
