@@ -380,9 +380,9 @@ nav h2 {
   }
 
   #hero img{
-    flex-direction: column;
     height: auto;
     width: 100%;
+    margin: 0 auto;
   }
 
 }
