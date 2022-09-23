@@ -379,4 +379,9 @@ nav h2 {
     columns: 2 auto;
   }
 
+#hero img{
+  height: auto;
+  width: 100%;
+}
+
 }
