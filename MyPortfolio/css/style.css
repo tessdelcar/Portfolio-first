@@ -380,15 +380,11 @@ nav h2 {
   }
 
   #hero {
-    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     background-image: url("../assets/Colorful_Tunnel_Vertical.jpg");
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
   }
 
 }
