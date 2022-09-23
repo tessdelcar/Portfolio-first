@@ -1,41 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Secular+One&display=swap');
 
 h1{
     font-family: Dancing Script;
     text-align: center;
-    /* color: #F17CB5; */
-    color: #F9849F;
+    /* color: #F9849F; */
+    /* color: #FD87A3; */
+    /* color: #F684A5; */
+    color: #FF78A6;
+    /* color: #FC88A6; */
     font-size: 48pt;
 }
 
 p{
   color: #80A685;
-  font-family: Noto;
+  font-family: 'Secular One',;
 }
 
 a{
-  text-align: center;
-  list-style-type: none;
+  text-decoration: none;
   color: #7EF286;
   /* color: #80A685; */
-  font-family: Noto;
+  font-family: 'Secular One';
 }
 
-ul li{
-    font-family: Noto;
-    display: inline;
-    /* list-style-type: none; */
+li{
+  text-align: center;
+  padding: 10px;
+}
+#nav-list{
+    font-family: 'Secular One';
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
     text-align: center;
-    color: #83FF8D;
+    /* color: #83FF8D; */
+    color: #8EEE95;
     /* color: #80A685; */
 }
 
 body{
   /* background-color: purple; */
   /* background-image: url('Assets/sunset1.jpg'); */
-  background-image: url('Assets/Background.jpg');
+  background-image: url('Assets/TDC_Designs.jpeg');
   background-position: center center fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -60,22 +70,45 @@ p{
 
 #Links{
   text-align: center;
-  font-family: Noto;
+  font-family: Dancing Script;
   font-size: 24pt;
-  color: #B5B5B5;
+  font-weight: bold;
+  margin-right: auto;
+  margin-right: auto;
+  color: #727172;
   /* color: #FFEC36; */
 }
 
 #nav-list{
-  background-position: center;
-  display: inline;
-  text-align: center;
   font-family: Noto;
   color: #80A685;
 }
 
 a:hover{
   /* color: #fff; */
-  background-color: #F9849F;
-  color: #fff;
+  /* background-color: #F9849F; */
+  background-color: #fff;
+  color: #FF78A6;
+}
+
+#nav-list a:hover{
+  background-color: #fff;
+  color: #FF78A6;
+}
+
+@media screen and (max-width: 800px) {
+  nav {
+    flex-direction: column;
+  }
+
+  body img{
+    height: 100%;
+    width: 25%;
+    margin: 0 auto;
+  }
+
+  h1{
+    color: #8EEE95;
+  }
+
 }

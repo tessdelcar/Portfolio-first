@@ -20,7 +20,8 @@ h2,
 h3,
 a {
   font-family: 'Secular One', sans-serif;
-  color: hotpink;
+  /* color: #FA367E; */
+  color: #FA3680;
 }
 
 
@@ -50,7 +51,9 @@ a {
 nav,
 nav a,
 footer a {
-  color: hotpink;
+  /* color: hotpink; */
+  /* color: #FA367E; */
+  color: #4ED6B2;
 }
 
 
@@ -60,7 +63,13 @@ footer a:hover {
 }
 
 .fa-brands{
-  color: #70E4EA;
+  /* color: #70E4EA; */
+  /* color: #4DD5B1; */
+  /* Green Blue: */
+  /* color: #4DD5B1; */
+  /* Purple */
+  /* color: #5D3A98; */
+  color: indigo;
 }
 
 /****************************************************************************
@@ -145,7 +154,10 @@ nav .socialMedia {
 nav,
 nav a,
 footer a {
-  color: indigo;
+  /* color: #5D3A98; */
+  /* Green Blue */
+  color: #4DD5B1;
+
 }
 
 
@@ -173,7 +185,7 @@ nav h2 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url("../assets/Retro_Pink.jpg");
+  background-image: url("../assets/Colorful_Tunnel.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -192,8 +204,8 @@ nav h2 {
 #hero a,
 .card a {
   background-color: white;
-  color: hotpink;
-  border: solid 2px hotpink;
+  color: #FA3680;
+  border: solid 2px #FA3680;
   border-radius: 24px;
   display: inline-block;
   padding: 8px 16px;
@@ -219,7 +231,8 @@ nav h2 {
 
 
 .card {
-  border: 2px solid hotpink;
+  border: 2px solid #FA3680;
+  /* color: #5D3A98; */
   color: indigo;
   margin: 48px 24px 24px;
   padding: 12px 12px 24px;
