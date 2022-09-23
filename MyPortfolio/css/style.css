@@ -380,6 +380,7 @@ nav h2 {
   }
 
   #hero img{
+    grid-template-columns: 1fr;
     height: auto;
     width: 100%;
     margin: 0 auto;
