@@ -379,11 +379,16 @@ nav h2 {
     columns: 2 auto;
   }
 
-  #hero img{
-    grid-template-columns: 1fr;
-    height: auto;
-    width: 100%;
-    margin: 0 auto;
+  #hero {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("../assets/Colorful_Tunnel_Vertical.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
   }
 
 }
