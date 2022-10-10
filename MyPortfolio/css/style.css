@@ -164,6 +164,7 @@ footer a {
 nav a:hover,
 footer a:hover {
   text-decoration: underline;
+  /* color: #5D3A98; */
 }
 
 
