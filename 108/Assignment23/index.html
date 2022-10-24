@@ -33,7 +33,7 @@
      let lightboxContainer = document.getElementById('lightboxContainer');
      let lightbox = document.getElementById('lightbox');
 
-     let galleryImages = document.getElementByClassName('galleryImage');
+     let galleryImages = document.getElementsByClassName('galleryImage');
      for (let i = 0; i < galleryImages.length; i++) {
        let galleryImage = galleryImages[i];
        galleryImage.onclick = function() {
@@ -43,7 +43,7 @@
        };
      }
 
-    let closers = document.getElementByClassName('closer');
+    let closers = document.getElementsByClassName('closer');
     for (let i = 0; i < closers.length; i++) {
       let closer = closers[i];
       closer.onclick = function() {
